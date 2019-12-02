@@ -10,5 +10,9 @@
 ```
 GOOS=linux GOARCH=amd64 go build -o hoge
 ```
+
+```
+zip main.zip ./hoge
+```
 - Messaging APIの`channel secret`, `channel token`, `user id`を環境変数にセット
 - CloudWatch Eventsなどでcronを仕込めば定期実行が可能です
